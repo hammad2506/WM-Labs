@@ -1,7 +1,6 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-//import path from 'path';
-import seedData from './src/helper/data'
+const express = require('express');
+const bodyParser = require('body-parser');
+const seedData = require('./src/helper/data');
 
 const app = express();
 app.use(bodyParser.urlencoded( {extended: false} ));
