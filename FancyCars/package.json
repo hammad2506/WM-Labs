@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-server": "babel-node server.js",
+    "start-server": "node server.js",
     "build": "webpack --mode=development",
     "dev-server": "webpack-dev-server --mode=development"
   },
