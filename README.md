@@ -11,7 +11,9 @@ Run the following from terminal:
 
 -> npm run build (To build bundle.js). 
 
--> npm run dev-server  (To run the dev server for FE on port 8080). 
+-> npm run dev-server  (To run the dev server for FE on port 8080).
+
+(NOTE: If you are using MACOS and have updated to Mojave, by default all files starting with '.' will be hidden and .babelrc will not be accessible during build which will cause failure. Please make your system unhide .babelrc to successfully complete build.)
 
 
 
